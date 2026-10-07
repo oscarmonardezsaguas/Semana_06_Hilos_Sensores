@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Semana 07 - Threads y Sensores</string>
+    <string name="title_main">Ejemplos Semana 07</string>
+    <string name="subtitle_main">Programación de Hilos (Threads) y Sensores en Android</string>
+    <string name="select_option">Selecciona una opción para ver la demostración:</string>
+    <string name="btn_threads">Ejemplo 1: Threads (Hilos)</string>
+    <string name="btn_sensores">Ejemplo 2: Sensores del Dispositivo</string>
+    <string name="open_example_1">Abrir Ejemplo 1 (Threads)</string>
+    <string name="open_example_2">Abrir Ejemplo 2 (Sensores)</string>
+    <string name="back_to_main">← Volver al Menú Principal</string>
+
+    <!-- Threads Activity -->
+    <string name="title_threads">Ejemplo 1: Hilos y Concurrencia</string>
+    <string name="desc_threads">Simulación de tarea pesada en segundo plano sin congelar la interfaz de usuario (Main Thread).</string>
+    <string name="thread_control_title">Control de Tarea Asíncrona</string>
+    <string name="btn_start_thread">Iniciar Hilo de Fondo</string>
+    <string name="btn_stop_thread">Detener Hilo</string>
+    <string name="status_thread_idle">Estado: En espera…</string>
+    <string name="status_thread_running">Estado: Ejecutando en hilo de fondo…</string>
+    <string name="status_thread_completed">Estado: ¡Tarea completada con éxito!</string>
+    <string name="status_thread_stopped">Estado: Hilo detenido por el usuario.</string>
+    <string name="progress_initial">Progreso: 0%</string>
+    <string name="ui_test_title">Prueba de Fluidez en Main Thread</string>
+    <string name="ui_test_desc">Si la tarea corre en un Thread secundario, la interfaz no se congela. Prueba presionar este botón mientras avanza el progreso:</string>
+    <string name="ui_clicks_format">Clics en UI: %d</string>
+
+    <!-- Sensores Activity -->
+    <string name="title_sensores">Ejemplo 2: Sensores Hardware</string>
+    <string name="desc_sensores">Lectura en tiempo real del Acelerómetro y Sensor de Luz Ambiental.</string>
+    <string name="accel_title">Acelerómetro (Sensor de Movimiento)</string>
+    <string name="light_title">Sensor de Luz Ambiental (Fotómetro)</string>
+    <string name="accel_x">Eje X: 0.00 m/s²</string>
+    <string name="accel_y">Eje Y: 0.00 m/s²</string>
+    <string name="accel_z">Eje Z: 0.00 m/s²</string>
+    <string name="accel_monitoring">Estado: Monitoreando movimiento…</string>
+    <string name="light_value">Luz: 0.0 lux</string>
+    <string name="light_waiting">Nivel: Esperando lectura…</string>
+    <string name="sensor_list_title">Información de Sensores</string>
+    <string name="sensor_detecting">Detectando sensores instalados…</string>
+    <string name="sensor_manager_unavailable">SensorManager no está disponible en este dispositivo.</string>
+    <string name="accel_unavailable">Acelerómetro no disponible en este dispositivo/emulador.</string>
+    <string name="light_unavailable">Sensor de luz ambiental no disponible en este dispositivo/emulador.</string>
+</resources>
